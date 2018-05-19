@@ -1,5 +1,5 @@
 {
-  "name": "custom-react-app",
+  "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "Custom build",
   "main": "src/index.js",
