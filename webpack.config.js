@@ -22,7 +22,11 @@ module.exports = {
           { loader: 'style-loader' },
           {
             loader: 'css-loader',
-            query: { modules: true, localIndentName: '[name]__[local]___[hash:base64:5]' }
+            query: {
+              modules: true,
+              localIdentName: '[name]__[local]_[hash:base64:5]',
+              minimize: true
+            }
           },
           { loader: 'sass-loader' }
         ]
