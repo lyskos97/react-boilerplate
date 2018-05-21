@@ -30,6 +30,10 @@ module.exports = {
           },
           { loader: 'sass-loader' }
         ]
+      },
+      {
+        test: /\.(svg|eot|png|woff2|ttf|woff)$/,
+        loader: 'file-loader'
       }
     ]
   },
